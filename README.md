@@ -6,7 +6,10 @@ Requisitos para utilização do sistema:
 * NPM
 
 - Esse projeto eu fiz utilizando HTML, CSS e Javascript e Bootstrap. 
-- Utilizei também algumas bibliotecas Jquery para atribuir máscaras nos campos e montar o gráfico.
+- Utilizei também algumas bibliotecas Jquery para atribuir máscaras nos campos e montar o gráfico. São elas:
+  - Mask.js
+  - MaskMoney.js
+  - Chart.js
 
 ## Como simular um investimento
 Primeiramente faça o download ou clone este repositório, execute `npm install` e `npx json-server db.json`.<br>
@@ -36,8 +39,13 @@ Após simular o investimento, os resultados aparecem no lado direito da tela, os
 Para fazer o gráfico, utilizei uma biblioteca chamada Chart.js, onde atribuo os valores que vem da API para o gráfico.
 
 ### Telas Mobile
-![Tela Inicial](https://user-images.githubusercontent.com/73489159/153102791-76dc4c2c-5b00-46c7-804c-97593011c2bc.png)
-Tela mobile com os dados preenchidos
+![TelaMobile](https://user-images.githubusercontent.com/73489159/153319058-134883fd-7c34-4776-9d7a-7b37185cbaa0.png)<br>
+Tela mobile inicial
+<br>
 
-![Tela Mobile](https://user-images.githubusercontent.com/73489159/153102818-43bfff0a-bc65-489b-845d-1bb88181da64.png)
-Resultados aparecendo na tela mobile.
+![Tela Mobile](https://user-images.githubusercontent.com/73489159/153102818-43bfff0a-bc65-489b-845d-1bb88181da64.png)<br>
+Tela mobile com os dados preenchidos
+<br>
+
+![TelaMobileResultados](https://user-images.githubusercontent.com/73489159/153319142-c6aeb14f-c40b-40b6-b038-c0436f2f8790.png)<br>
+Resultados aparecendo em uma tela Mobile
